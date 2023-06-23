@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    width: device-width;
+    height: 300px;
+    justify-content: center;
+    background-color: rgb(240, 245, 248);
+    font-size: xx-large;
+}
+
+#h1banner {
+    margin-top: 130px;
+
+}
+
+
+#menu{
+    background-color: rgb(179, 188, 192); 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(179, 188, 192);   
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(118, 124, 128);
+}
+
