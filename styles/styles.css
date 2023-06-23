@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    width: device-width;
+    height: 300px;
+    justify-content: center;
+    background-color: rgb(240, 245, 248);
+    font-size: xx-large;
+}
+
+#h1banner {
+    margin-top: 130px;
+
+}
+
+body{
+    background-color: rgb(240, 245, 248);
+    text-align: center;
+}
+
+#menu{
+    background-color: rgb(179, 188, 192); 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(179, 188, 192);   
+    margin-left: 40%;
+  
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(118, 124, 128);
+}
+
+#imgdestaque{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+#destaque{
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+}
+#content{
+    font-size: xx-large;
+}
+#obs{
+    width: 300px;
+    height: 100px;
+}
+
+#formulario{
+    border-style:solid;
+    width: 400px;
+    text-align: center;
+
+}
+#formularioBox{
+    margin: 0 auto;
+    margin: 25px;
+    margin-left: 40%;
+}
+
+button{
+    margin: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+footer{
+    background-color:rgb(179, 188, 192);
+    height: 300px;
+    padding: 10px;
+    display: flex;
+}
+.icone {
+    display: flex;
+    width: 40px; /* Defina a largura desejada para o ícone */
+    height: 40px; /* Defina a altura desejada para o ícone */
+    margin: 10px;
+    
+  }
+
+  #map{
+    background-color: red;
+    margin-left: 10px;
+    width: 500px;
+    background-image: urL(../imgs/map.jpeg);
+    border-radius: 10px;
+}
+
+#onde{
+    margin-left: 700px;
+}

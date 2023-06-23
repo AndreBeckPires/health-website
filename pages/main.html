@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<title>Saude</title>
+<link rel="stylesheet" href="../styles/styles.css">
+<meta name="keywords" content="html tutorial template">
+</head>
+<header id="top-banner">
+    
+    <h1 id="h1banner">SUA SAÚDE</h1>
+    <img id="imgbanner" src="../imgs/banner.png" alt="senhor fazendo exercicios">
+
+</header>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+    </div>
+    <div id="imgdestaque">
+        <img id="destaque" src="../imgs/7-activities-to-celebrate-national-senior-health-and-fitness-day.jpg" alt="pessoas felizes fazendo exercicio">
+    </div>
+    <div id="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div id="formularioBox">
+        
+        <form id="formulario">
+            <h1>Formulário</h1>
+            <h3>Sobre você:</h3><br>
+            <label for="fname">Nome:</label>
+            <input type="text" id="fname" name="fname" value=""><br>
+
+            <label for="age">Idade:</label>
+            <input type="number" id="age" name="age" value=""><br>
+
+            <label for="sexo">Sexo:</label>
+            <input type="text" id="sexo" name="sexo" value=""><br>
+
+            <label for="altura">Altura em metros:</label>
+            <input type="text" id="altura" name="altura" value=""><br>
+
+            
+            <label for="peso">Peso em Kg:</label>
+            <input type="text" id="peso" name="peso" value=""><br>
+
+            <h3>Com que frequência faz atividade física:</h3><br>
+            <input type="radio" id="constante" name="freq" value="constante">
+            <label for="constante">Faz atividade física constante</label><br>
+            <input type="radio" id="ocasional" name="freq" value="ocasional">
+            <label for="ocasional">Faz atividade ocasional</label><br>
+            <input type="radio" id="sedentario" name="freq" value="sedentario">
+            <label for="sedentario">Sedentário</label><br>
+
+            <h3>Fumante</h3><br>
+            <input type="radio" id="fumante" name="fuma" value="sim">
+            <label for="fumante">Sim</label>
+            <input type="radio" id="naofumante" name="fuma" value="nao">
+            <label for="naofumante">Não</label><br>
+
+            <h3>Consumo de bebidas</h3><br>
+            <input type="radio" id="nunca" name="bebida" value="nunca">
+            <label for="nunca">Nunca</label>
+            <input type="radio" id="socialmente" name="bebida" value="socialmente">
+            <label for="socialmente">Socialmente</label><br>
+            <input type="radio" id="frequentemente" name="bebida" value="frequentemente">
+            <label for="frequentemente">Frequentemente</label><br>
+
+            <h3>Hábitos Alimentares</h3>
+            <input type="checkbox" id="verduras" name="habitos" value="verduras">
+            <label for="verduras">Verduras</label><br>
+            <input type="checkbox" id="vermelhas" name="habitos" value="carnes vermelhas">
+            <label for="vermelhas">Carnes vermelhas</label><br>
+            <input type="checkbox" id="gordas" name="habitos" value="carnes gordas">
+            <label for="gordas">Carnes gordas</label><br>
+            <input type="checkbox" id=" peixes" name="habitos" value="peixes">
+            <label for=" peixes">Peixes</label><br>
+            <input type="checkbox" id="arroz" name="habitos" value="arroz">
+            <label for="arroz">Arroz</label><br>
+            <input type="checkbox" id="água" name="habitos" value="água">
+            <label for="água">Água</label><br>
+            <input type="checkbox" id="sucos" name="habitos" value="sucos">
+            <label for="sucos">Sucos</label><br>
+            <input type="checkbox" id="paes" name="habitos" value="pães">
+            <label for="paes">Pães</label><br>
+            <input type="checkbox" id="embutidos" name="habitos" value="embutidos">
+            <label for="embutidos">Embutidos</label><br>
+            <input type="checkbox" id="lanches" name="habitos" value="lanches">
+            <label for="lanches">Lanches (baurus, hotdogs, ect)</label><br>        
+            
+            <label for="obs"><h3>Observações:</h3></label>
+            <textarea type="text" id="obs" name="obs" value=""></textarea><br> 
+            <button type="button" onclick="submitForms()">Enviar</button>
+        </form>
+       
+    </div>
+
+  
+</body>
+<footer>
+    <p>
+        <span class="icone">
+            <img src="../icons/insta.png" alt="Ícone">
+            <P>@SUASAUDE</P>
+        </span>
+
+
+    </p>
+    
+    <p>
+        <span class="icone">
+            <img src="../icons/mail.png" alt="Ícone">
+            <P>SUASAUDE@EMAIL.COM</P>
+            
+        </span>
+    </p>
+    
+    <p>
+        <span class="icone">
+            <img  src="../icons/fone.png" alt="Ícone">
+            <p>
+                4002-8922
+            </p>
+        </span>
+    </p>
+    <span id="onde"><h1>Onde estamos:</h1></span>
+    <span id="map">
+    </span>
+
+</footer>
+<script src="../scripts/myScript.js"></script>
+</html>
