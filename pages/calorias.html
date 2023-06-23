@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<title>Saude</title>
+<link rel="stylesheet" href="../styles/styles.css">
+<meta name="keywords" content="html tutorial template">
+</head>
+<header id="top-banner">
+    
+    <h1 id="h1banner">SUA SAÚDE</h1>
+    <img id="imgbanner" src="../imgs/banner.png" alt="senhor fazendo exercicios">
+
+</header>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a class="active"  href="calorias.html">Calcular calorias</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+    </div>
+    <div id="formularioBox">
+        
+        <form id="formulario">
+            <h1>Calcule calorias gastas durante uma corrida</h1>
+
+            <label for="velocidade"><h3>Velocidade Média(km/h):</h3></label><br>
+            <input type="text" id="velocidade" name="velocidade" value=""><br>
+
+            
+            <label for="peso"><h3>Seu peso(kg):</h3></label><br>
+            <input type="text" id="peso" name="peso" value=""><br>
+
+            <label for="tempo"><h3>Duração em minutos</h3>:</h3></label><br>
+            <input type="text" id="tempo" name="tempo" value=""><br>
+            <button type="button" onclick="checkCalorias()">Enviar</button>
+        </form>
+       
+    </div>
+
+  
+</body>
+<footer>
+    <p>
+        <span class="icone">
+            <img src="../icons/insta.png" alt="Ícone">
+            <P>@SUASAUDE</P>
+        </span>
+
+
+    </p>
+    
+    <p>
+        <span class="icone">
+            <img src="../icons/mail.png" alt="Ícone">
+            <P>SUASAUDE@EMAIL.COM</P>
+            
+        </span>
+    </p>
+    
+    <p>
+        <span class="icone">
+            <img  src="../icons/fone.png" alt="Ícone">
+            <p>
+                4002-8922
+            </p>
+        </span>
+    </p>
+    <span id="onde"><h1>Onde estamos:</h1></span>
+    <span id="map">
+    </span>
+
+</footer>
+
+<script src="../scripts/myScript.js"></script>
+</html>

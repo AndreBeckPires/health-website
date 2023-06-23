@@ -49,3 +49,12 @@ function submitForms() {
     "\n Observações: " + observacoes);
     
 }
+
+function checkCalorias(){
+    let velocidade = document.getElementById("velocidade").value;
+    let peso = document.getElementById("peso").value;
+    let tempo = document.getElementById("tempo").value;
+
+    let result = velocidade * peso * tempo;
+    alert("Calorias gastas: " + result);
+}
